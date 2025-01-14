@@ -15,6 +15,7 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
+      "@modern-dev/button": ["libs/components/button/src/index.ts"],
       "@modern-dev/my-ui-lib": ["libs/my-ui-lib/src/index.ts"]
     }
   },
