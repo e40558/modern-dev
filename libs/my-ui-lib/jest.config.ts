@@ -1,8 +1,8 @@
 export default {
-  displayName: 'modern-dev',
+  displayName: 'my-ui-lib',
   preset: '../../jest.preset.js',
   setupFilesAfterEnv: ['<rootDir>/src/test-setup.ts'],
-  coverageDirectory: '../../coverage/apps/modern-dev',
+  coverageDirectory: '../../coverage/libs/my-ui-lib',
   transform: {
     '^.+\\.(ts|mjs|js|html)$': [
       'jest-preset-angular',
